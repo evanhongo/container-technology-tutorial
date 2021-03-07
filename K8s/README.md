@@ -198,6 +198,15 @@ helm install --values=my-values.yaml <chart_name>
 
 ---
 
+# K8s Operator
+
+- ## Manage stateful applications
+- ## Custom control loop
+  ![image](./img/23.jpg)
+- ## Make use of **CRDs** (**Custom Resource Definitions**)
+
+---
+
 # Other Convenient Tool
 
 ## 1. Forge: https://forge.sh/docs/tutorials/quickstart
