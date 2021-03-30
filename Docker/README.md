@@ -27,6 +27,11 @@ docker tag express-server localhost:5000/express-server
 docker push localhost:5000/express-server
 ```
 
+```sh
+# List images in the local registry
+curl -X GET http://localhost:5000/v2/_catalog
+```
+
 # Test an insecure registry
 
 - ## Edit the **daemon.json** file, whose default location is **/etc/docker/daemon.json** on Linux
