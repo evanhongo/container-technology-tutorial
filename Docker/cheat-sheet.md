@@ -7,6 +7,8 @@ docker logs <containerID>
 docker stop <containerID>
 docker start <containerID>
 docker exec -it <containerID> bash
+docker login <registryURI>
+docker cp <file> <containerID>:<path>
 ```
 
 ```sh
